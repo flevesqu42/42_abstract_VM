@@ -1,0 +1,60 @@
+push int8(10)
+push int8(33)
+push int8(32)
+push int8(100)
+push int8(108)
+push int8(114)
+push int8(111)
+push int8(87)
+push int8(32)
+push int8(111)
+push int8(108)
+push int8(108)
+push int8(101)
+push int8(72)
+
+assert int8(72)
+print
+pop
+assert int8(101)
+print
+pop
+assert int8(108)
+print
+pop
+assert int8(108)
+print
+pop
+assert int8(111)
+print
+pop
+assert int8(32)
+print
+pop
+assert int8(87)
+print
+pop
+assert int8(111)
+print
+pop
+assert int8(114)
+print
+pop
+assert int8(108)
+print
+pop
+assert int8(100)
+print
+pop
+assert int8(32)
+print
+pop
+assert int8(33)
+print
+pop
+assert int8(10)
+print
+pop
+
+dump
+exit

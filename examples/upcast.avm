@@ -1,0 +1,13 @@
+push float(40.0)
+push int8(4)
+div
+assert float(10.0)
+dump
+pop
+push int16(40)
+push float(4.0)
+div
+assert float(10.0)
+dump
+assert int16(10)
+exit
